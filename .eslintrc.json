@@ -36,6 +36,14 @@
         {
           "varsIgnorePattern": "_"
         }
-      ]
+      ],
+      "require-jsdoc": [2, {
+        "require": {
+            "FunctionDeclaration": false,
+            "MethodDefinition": false,
+            "ClassDeclaration": false
+        }
+      }]
     }
+    
 }
